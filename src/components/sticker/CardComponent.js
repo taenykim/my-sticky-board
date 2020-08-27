@@ -246,7 +246,7 @@ function CardComponent(props) {
     const { colors } = props;
 
     return (
-        <CardList title={cardTitle} data={cardDatas} default={5} offset={3} />
+        <CardList title={cardTitle} data={cardDatas} default={10} offset={3} />
     );
 }
 
